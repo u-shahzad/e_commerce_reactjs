@@ -1,11 +1,14 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
 
+import shoesImg from "../../img/shoes.jpg"
+import macbookImg from '../../img/macbook.jpg'
+
 import Product from './Product/Product';
 
 const products = [
-    { id: 1, name: 'Shoes', description: 'Running shoes.', price: '$5' },
-    { id: 2, name: 'Macbook', description: 'Apple macbook.', price: '$9' },
+    { id: 1, name: 'Shoes', description: 'Running shoes.', price: '$5', image: shoesImg },
+    { id: 2, name: 'Macbook', description: 'Apple macbook.', price: '$9', image: macbookImg },
 ];
 
 const Products = () => {
